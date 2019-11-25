@@ -23,18 +23,6 @@ import android.view.inputmethod.InputMethodManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.example.android.aboutme.databinding.ActivityMainBinding
-
-
-/**
- * Main Activity of the AboutMe app. This app demonstrates:
- *     * LinearLayout with TextViews, ImageView, Button, EditText, and ScrollView
- *     * ScrollView to display scrollable text
- *     * Getting user input with an EditText.
- *     * Click handler for a Button to retrieve text from an EditText and set it in a TextView.
- *     * Setting the visibility status of a view.
- *     * Data binding between MainActivity and activity_main.xml. How to remove findViewById,
- *       and how to display data in views using the data binding object.
- */
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
